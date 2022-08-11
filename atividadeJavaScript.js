@@ -1,7 +1,7 @@
 /*! jQuery v1.12.4 | (c) jQuery Foundation | jquery.org/license */
 /*na pagina principal o stackoverflow e utilizado essa api
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>*/
-// como tenho nenhuma familiaridade com a javascript reconheci algumas funcoes e variaveis 
+// como ainda nao tenho  familiaridade com a javascript reconheci algumas funcoes e variaveis visto que a sintaxe parace em alguns aspectos com c e java 
 
 !function(a, b) {
     "object" == typeof module && "object" == typeof module.exports ? module.exports = a.document ? b(a, !0) : function(a) {
