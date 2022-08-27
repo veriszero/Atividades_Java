@@ -11,17 +11,16 @@ por exemplo: um programa de calculadora.*/
 function conta(){
     
 }
-function contaPoupanca(deposito,saque){
+function contaPoupanca(deposito){
     let valorConta=0;
-    let valorSaque=parseFloat(saque);
     let valorDeposito=parseFloat(deposito);
+    valorConta += valorDeposito
+    return console.log(valorConta);
 
-    if (valorDeposito >0) {
-        valorConta += valorDeposito
-        return console.log(valorConta);
-    }else if(valorSaque >0){
-        valorConta -= valorSaque
-        return console.lor(valorConta);
-    }
 }
-contaPoupanca(500,0)
+contaPoupanca(500);
+
+valorNovaConta=500;
+let contaCorrente = (saque) =>valorNovaConta-=saque;
+
+console.log(contaCorrente(200));
