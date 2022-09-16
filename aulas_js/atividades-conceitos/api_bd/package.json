@@ -1,0 +1,9 @@
+{
+  "name": "api_bd",
+  "version": "1.0.0",
+  "description": "teste node http",
+  "main": "index.js",
+  "scripts": {},
+  "author": "verissimo",
+  "license": "MIT"
+}
