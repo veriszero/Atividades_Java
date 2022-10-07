@@ -1,0 +1,30 @@
+body {
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana,
+    sans-serif;
+    line-height: 1.6;
+}
+
+h1{
+    margin: 0 auto;
+    width: 960px;
+}
+img{
+
+}
+.place{
+    border-color: #CCC #999 #999 #CCC;
+    border: 1px solid #CCC;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.tourist{
+    border-color: #CCC #999 #999 #CCC;
+    border: 1px solid #CCC;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+footer{
+    position: absolute;
+    
+}
