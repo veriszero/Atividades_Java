@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions-aula 1</title>
+</head>
+<body>
+    <script>
+       function escreva(){
+         return 'Ola, Verissimo!'
+       } 
+       
+       function escrevaMensagem(mensagem){
+        console.log(mensagem)
+       }
+       escrevaMensagem('Ola, Daniela')
+       escrevaMensagem('Obrigado Daniela')
+       
+       var msg = escreva();
+       console.log(msg)
+
+       function soma(a,b){
+        return a+b
+       }
+       resultadoSoma = soma(10,5);
+       console.log(resultadoSoma)
+
+       function somaArray(numeros){
+        total=0
+        for (var num of numeros){
+            total = total + num
+        }
+        return total
+       }
+       var valores = [3,6,67,46,8,9]
+       var resultado = somaArray(valores)
+       console.log(resultado)
+       //parametros rest ...
+       function escreverEndereco(rua, cidade, pais, ...complemento){
+        console.log(rua)
+        console.log(cidade)
+        console.log(pais)
+        console.log(complemento)
+
+       }
+       escreverEndereco('rua simples','sao paulo','brasil','sao paulo','casa prop','cep 5500.000.000','bloco 18');
+
+       //function autoExecutavel
+       (function (){
+            console.log('executei');
+       }())
+       //funcoes anonimas
+       var subtraiDoisNumeros = function (a,b){
+        return a-b;
+       }
+       console.log(subtraiDoisNumeros(15,6))
+    </script>
+</body>
+</html>
